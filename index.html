@@ -7,51 +7,101 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Chat app CSS illustration</title>
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
 
-  Samuel Green
-  Available to Walk
+  <main>
 
-  That sounds great. I'd be happy with that.
+    <!-- Section 1 -->
+    <section id="section-1">
 
-  Could you send over some pictures of your dog, please?
+      <!-- Background 1 -->
+      <div id="bg-1"></div>
 
-  Here are a few pictures. She's a happy girl!
+      <!-- Phone -->
+      <div id="phone">
+        <div id="chat-header">
+          <div></div>
+          <div id="header">
+            <div id="back-btn"></div>
+            <div id="avatar"></div>
+            <div id="header-text">
+              <h3>Samuel Green</h3>
+              <p>Available to Walk</p>
+            </div>
+            <div id="options-btn"></div>
+          </div>
+        </div>
 
-  Can you make it?
+        <div id="chat-body">
+          <div class="chat-bubble left-bubble">
+            <p>That sounds great. I'd be happy with that.</p>
+          </div>
+          <div class="chat-bubble left-bubble">
+            <p>Could you send over some pictures of your dog, please?</p>
+          </div>
+          <div id="chat-imgs">
+            <div id="img-1" class="chat-img"></div>
+            <div id="img-2" class="chat-img"></div>
+            <div id="img-3" class="chat-img"></div>
+          </div>
+          <div class="chat-bubble right-bubble">
+            <p>Here are a few pictures. She's a happy girl!</p>
+          </div>
+          <div class="chat-bubble right-bubble">
+            <p>Can you make it?</p>
+          </div>
+          <div class="chat-bubble left-bubble">
+            <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+          </div>
+          <div class="chat-bubble left-bubble pricing">
+            <div class="radio"></div>
+            <p>30 minute walk</p>
+            <strong>$29</strong>
+          </div>
+          <div class="chat-bubble left-bubble pricing">
+            <div class="radio"></div>
+            <p>1 hour walk</p>
+            <strong>$49</strong>
+          </div>
+        </div>
 
-  She looks so happy! The time we discussed works. How long shall I take her out for?
+        <div id="chat-input">
+          <div id="input-field">
+            <p>Type a message…</p>
+            <div id="input-btn">
+              <div id="input-btn-arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  30 minute walk
-  $29
+    </section>
 
-  1 hour walk
-  $49
+    <!-- Section 2 -->
+    <section id="section-2">
 
-  Type a message…
+      <!-- Text -->
+      <div id="text">
+        <h2>Simple booking</h2>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and
+          make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+        </p>
 
-  Simple booking
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+          Coded by <a href="https://eugeneilin.dev/" target="_blank">Eugene Ilin</a>.
+        </div>
+      </div>
 
-  Stay in touch with our dog walkers through the chat interface. This makes it easy to
-  discuss arrangements and make bookings. Once the walk has been completed you can rate
-  your walker and book again all through the chat.
+      <!-- Background 2 -->
+      <div id="bg-2"></div>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    </section>
+
+  </main>
+
 </body>
 
 </html>
